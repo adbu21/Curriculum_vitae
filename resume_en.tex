@@ -1,0 +1,138 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[left=1cm,top=1cm]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{graphicx} % photo
+\usepackage{paracol} % two columns
+\usepackage{parcolumns}
+\usepackage{xcolor} %colors
+\usepackage{hyperref}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+\thispagestyle{empty}
+
+\columnratio{0.2,0.8}
+\begin{paracol}{2}
+\setlength{\columnseprule}{0.2pt}
+\setlength{\columnsep}{1.5cm}
+    \begin{leftcolumn}
+
+        %%--- Photo
+        \begin{figure}[h]
+        \centering
+        \fbox{\includegraphics[width=1\linewidth]{Photo.jpg}}
+        \end{figure}
+
+        %%--- CAPTIONS
+        \begin{flushright}
+          \textbf{Practice} \\
+          \vspace{64pt}
+          \textbf{Education} \\
+          \vspace{120pt}
+          \textbf{Skills} \\
+          \vspace{85pt}
+          \textbf{GitHub} \\
+          \vspace{20pt}
+          \textbf{Languages} \\
+          \vspace{28pt}
+          \textbf{Licence} \\
+          \vspace{45pt}
+          \textbf{Interests}
+
+
+
+        \end{flushright}
+
+    \end{leftcolumn}
+
+    \begin{rightcolumn}
+
+      %%--- BASIC INFORMATION
+        \vspace*{1pt}
+        \qquad{\LARGE\textbf{Adam Buchta}} \vspace{0.5cm} \\
+        \hspace*{0.5cm} \includegraphics[width=0.3cm]{phone.png}~~+420 732 343 981 \hfill \includegraphics[width=0.3cm]{email.png}~~adbuch7@gmail.com \hspace*{2cm} \vspace{0.4cm} \\
+        \hspace*{0.5cm} \includegraphics[width=0.3cm]{person.png}~~7.2.1998 \hfill \includegraphics[width=0.3cm]{house.png}~~Brno, Czech republic   \hspace*{2cm} \vspace{8pt} \\
+        \rule{\linewidth}{0.5pt}
+
+      %%--- CAREER
+        \vspace{32pt}
+        \begin{parcolumns}[colwidths={1=0.3\textwidth}]{2}
+        \colchunk{ Three weeks in 2017 }
+        \colchunk{Red Hat, Inc. \\
+                    \textcolor{gray}{Internship. School practice.}}
+        \end{parcolumns}
+
+        \vspace{5pt}
+        \begin{parcolumns}[colwidths={1=0.3\textwidth}]{2}
+        \colchunk{ 2011 - 2018 }
+        \colchunk{Šálek Ticha, s.z. \\
+                   \textcolor{gray}{Service in the teahouse.} }
+        \end{parcolumns}
+
+
+
+      %%--- EDUCATION
+        \vspace{18pt}
+        \begin{parcolumns}[colwidths={1=0.3\textwidth}]{2}
+        \colchunk{ 2018 - 2019 }
+        \colchunk{University of Technology in Brno, Faculty of Information Technology. \\
+                    \textcolor{gray}{Three semesters. Study ended.}}
+        \end{parcolumns}
+
+        \vspace{5pt}
+        \begin{parcolumns}[colwidths={1=0.3\textwidth}]{2}
+        \colchunk{ 2014 - 2018 }
+        \colchunk{Business Academy Veselí nad Moravou - Information and Communication Technology. \\
+                   \textcolor{gray}{High School with graduation exam.} }
+        \end{parcolumns}
+        \vspace{0.5cm}
+        \rule{\linewidth}{0.5pt}
+
+      %%--- SKILLS
+        \vspace{18pt}
+        \begin{parcolumns}{2}
+        \colchunk{C/C++ \qquad \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \\
+                   C\#  \hspace{36.5pt} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png}
+        }
+
+        \colchunk{Java \qquad \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \\
+                  PHP \qquad \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png}
+        }
+        \end{parcolumns}
+
+        \vspace{0.5cm}
+        \normalsize{Other skills: MS Office, Gimp, CorelDraw, \textbf{GIT}, \LaTeX, MS Visual Studio, Linux (Ubuntu), (X)HTML, CSS, Assemler}
+        
+      %%--- GITHUB
+        \vspace{26pt}
+        My GitHub: \url{https://github.com/adbu21}
+
+      %%--- LANGUAGES
+        \vspace{20pt}
+        \begin{parcolumns}{2}
+        \colchunk{English \qquad \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{halfstar.png}}
+        \colchunk{German \qquad \includegraphics[width=0.4cm]{fullstar.png} \includegraphics[width=0.4cm]{halfstar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png} \includegraphics[width=0.4cm]{estar.png}}
+        \end{parcolumns}
+        
+        
+
+      %%--- LICENCE
+        \vspace{28pt}
+        Driver's licence \textbf{B} \\ \\
+        \rule{\linewidth}{0.5pt}
+
+      %%--- INTERESTS
+        \vspace{18pt}
+        A member in medieval fencing and acting club Dračí Úsvit, s.z. since 2010.\\
+        Passionate gamer.\\
+        Volunteer to testing of Kingdom Come: Deliverance's DLC by Warhorse Studios.
+
+    \end{rightcolumn}
+\end{paracol}
+
+\end{document} 
